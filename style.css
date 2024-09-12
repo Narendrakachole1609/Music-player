@@ -1,0 +1,168 @@
+body{
+background-image : url(./image/assest01.gif);
+background-size: cover;
+}
+
+*{margin: 0; padding: 0;}
+
+nav {
+    padding: 2.5%;
+}
+.TopBar{
+    background: #ffffff;
+    border-radius: 20px 0px 20px 0px;
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.nabar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 2rem;
+    gap: 2rem;
+}
+.nabar h1{
+    color: rgb(0, 0, 0);
+}
+.TopBar a {
+    text-decoration: none;
+}
+.TopBar a h1{
+    color:rgb(0, 0, 0);
+}
+
+#iamuser {
+    height: 100%;
+    width: 100%;
+}
+.container{
+    min-height: 70vh;
+    background: #ffffff;
+    color: rgb(255, 255, 255);
+    width: 75%;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 20px 0px 20px 0px;
+    padding: 15px ;
+    background-image:url(./image/diego-catto-DI6ywiG5N0g-unsplash.jpg);
+    background-size:cover ;
+   }
+
+.songlist {
+    padding: 7%;
+}
+.songlist h1{
+    color: black;
+    padding: 0px 0px 50px 50px;
+}
+
+footer {
+    padding: 2.5%;
+}
+
+.songItem img {
+    width: 30px;
+    margin: 0 10px;
+    border-radius: 30px;
+    
+}
+.songItem {
+display: flex;
+height: 35px;
+background: #c9c9c9;
+width: 100%;
+color: #000;
+margin: 10px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 20px;
+}
+.timesplash {
+    margin: 0 23px;
+}
+.timesplash i {
+    cursor: pointer;
+}
+
+.bottom {
+    position: relative;
+    background: #ffffff;
+    color: #000000;
+    height: 120px;
+    bottom: 0;
+    border-radius: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 80vw;
+    color: rgb(164, 164, 164);
+    cursor: pointer;
+}
+.bottom .icons {
+    font-size: 25px;
+    margin-top: 16px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.songInfo {
+    position:relative;
+    left: -2vw;
+    padding-top: 10px;
+    /* font-size: 20px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.art-Main {
+    padding: 3%; 
+}
+.art{
+    padding: 3%;    
+    background: #ffffff;
+    border-radius: 20px 0px 20px 0px;
+}
+.artist-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 360px;
+        gap: 2rem;    
+}
+.artist{
+    display: flex;
+    width: 50%;
+    padding: 2.5%;
+}
+img{
+    width: 200px;
+
+}
+.hr-line {
+    padding-left: 15%;
+}
+.vl {
+    display: flex;
+    height: 2px;
+    width: 85%;
+    background: #070707;
+}
+.artist-social{
+   display: flex;
+   align-items: center;
+   justify-content:space-evenly;  
+   padding: 3% 0 0 0;
+   width: 100%;
+}
+.artist-social i {
+    padding: 0 30px;
+}

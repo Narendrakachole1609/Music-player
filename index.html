@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+ 
+    <!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="TopBar">
+          <div class="nabar">
+            <h1>Music Player</h1>
+            <i class="fa-solid fa-music fa-2xl" style="color: #000000;"></i>
+           <a href=""><h1>Artist</h1></a>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Favourites</h1>
+            <div class="songItemContainer"> 
+             <div class="songItem"> 
+              <img alt="1">
+                <span class="songName">Let me love </span>
+                 <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="1" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem"> 
+                <img alt="1">
+                <span class="songName">Let me love </span> 
+                <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="2" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem"> 
+                <img alt="1" >
+                <span class="songName">Let me love </span>
+                 <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="3" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem">
+                 <img alt="1" >
+                <span class="songName">Let me love </span> 
+                <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="4" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem">
+                 <img alt="1">
+                <span class="songName">Let me love </span> 
+                <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="5" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem"> 
+                <img alt="1" >
+                <span class="songName">Let me love </span>
+                 <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="6" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem"> 
+                <img alt="1" >
+                <span class="songName">Let me love </span> 
+                <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="7" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem"> 
+                <img alt="1">
+                <span class="songName">Let me love </span> 
+                <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="8" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+              <div class="songItem"> 
+                <img alt="1">
+                <span class="songName">Let me love </span>
+                 <span class="songlistPlay"><span class="timesplash"> 5:45 <i id="9" class=" songItemPlay fa-solid fa-circle-play"></i></span> </span>
+              </div>
+        </div>
+        </div>
+        <div class="songimg"></div>
+    </div>
+
+
+ 
+<footer>
+  <div class="bottom">
+    <div class="songInfo" >
+      <img src="./image/bgGif.gif" alt="" width="40px" height="30px" id="gif"><span id="masterSongName"></span>
+     </div>
+     
+    <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" >
+    <div class="icons">
+    <i class=" songItempPlay fa-solid fa-backward" id="previous"></i>
+    <i class=" songItempPlay fa-solid fa-circle-play" id="masterPlay"></i>
+    <i class=" songItempPlay fa-solid fa-forward" id="next"></i>
+    
+  </div>
+
+</div>
+</footer>
+
+<div class="art-Main">
+  <div class="art">
+    <div class="artist-section">
+      <div class="artist">
+        <div>
+          <h1>Narendra Kachole</h1>
+          <p> The first project by me based on HTML, CSS and JavaScript. The project consist of multiple set of codes
+            having working functionalities and styling whch include play button, pause button, next button previous button
+            and symmetric list of songs.
+          </p>  
+          </div>
+      </div>
+      <div>
+        <img src="./image/user.png"/>
+      </div>
+  </div>
+    <div class="hr-line">
+      <div class="vl"></div>
+    </div>
+  
+    <div class="artist-social">
+      <div>
+        <a href="https://github.com/Narendrakachole1609">
+          <i class="fa-brands fa-github fa-xl" style="color: #000000;" ></i></a>
+        <a href="www.linkedin.com/in/narendra-kachole-a38a39273" target="_blank">
+          <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i></a>
+        <a href="https://www.facebook.com/narendra.kachole">
+          <i class="fa-brands fa-square-facebook fa-xl" style="color: #000000;"></i></a>
+        <a href="https://www.instagram.com/narendra13756/">
+          <i class="fa-brands fa-instagram fa-xl" style="color: #000000;"></i></a>
+    </div>
+    </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
